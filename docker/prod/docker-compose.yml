@@ -1,0 +1,21 @@
+version: "3.0"
+
+services:
+
+  api:
+    build: .
+    image: api
+    env_file: docker-compose.env
+    environment:
+      SERVICES: api
+      PORT: 3000
+    ports:
+      - "3001:8080"
+
+  sso-user:
+    build: ../
+    image: bw-sso-user
+    env_file: docker-compose.env
+    environment:
+      SERVICES: sso-user
+

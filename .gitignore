@@ -1,0 +1,11 @@
+node_modules/
+.env
+.vscode
+dist/
+local/
+ssh/
+deploy-manual.sh
+deploy-kube.sh
+dev.log
+VERSION
+.idea
