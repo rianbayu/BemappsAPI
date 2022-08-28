@@ -80,7 +80,7 @@
     "uuid-token-generator": "^1.0.0"
   },
   "engines": {
-    "node": ">= 8.x.x"
+    "node": "8.x.x"
   },
   "jest": {
     "coverageDirectory": "<rootDir>/coverage",
